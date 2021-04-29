@@ -3,7 +3,7 @@
  * @param {number} target
  * @return {number[]}
  */
-const twoSum = function (nums, target) {
+const improved = function (nums, target) {
   let foundIndex = -1
 
   for (let i = 0; i < nums.length; i++) {
@@ -14,10 +14,4 @@ const twoSum = function (nums, target) {
   }
 }
 
-const nums = [2, 7, 11, 15]
-const target = 9
-
-// const nums = [3, 2, 4]
-// const target = 6
-
-console.log('twoSum: ', twoSum(nums, target))
+export default improved
