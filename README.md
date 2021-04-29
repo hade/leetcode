@@ -4,7 +4,7 @@ Some leetcode.com problems solved for practicing purposes.
 
 ## Jest setup for testing
 
-Using jest for testing. ES6 module expot/import does not work out-of-the-box. Module-type is needed and node needs to be executed in --experimental-vm-modules mode. 
+Using jest for testing. ES6 module export/import does not work out-of-the-box. Module-type is needed and node needs to be executed in --experimental-vm-modules mode. 
 
 ```json
 {
