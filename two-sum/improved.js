@@ -3,7 +3,7 @@
  * @param {number} target
  * @return {number[]}
  */
-const improved = function (nums, target) {
+const improved = function improved(nums, target) {
   let foundIndex = -1
 
   for (let i = 0; i < nums.length; i++) {
@@ -12,6 +12,7 @@ const improved = function (nums, target) {
       return [i, foundIndex]
     }
   }
+  return undefined
 }
 
 export default improved

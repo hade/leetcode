@@ -3,7 +3,7 @@
  * @param {number} target
  * @return {number[]}
  */
-const firstRun = function (nums, target) {
+const firstRun = function firstRun(nums, target) {
   return nums.reduce((ret, num, index) => {
     const theRest = nums.slice(index + 1)
     const foundIndex = theRest.indexOf(target - num)

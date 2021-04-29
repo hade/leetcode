@@ -17,5 +17,6 @@ module.exports = {
     'no-console': 'off',
     'import/no-named-as-default': 0,
     'import/extensions': 'off',
+    'no-plusplus': ['error', { allowForLoopAfterthoughts: true }],
   },
 }

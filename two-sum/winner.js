@@ -1,4 +1,4 @@
-const winner = function (nums, target) {
+const winner = (nums, target) => {
   const comp = {}
   for (let i = 0; i < nums.length; i++) {
     if (comp[nums[i]] >= 0) {
@@ -6,6 +6,7 @@ const winner = function (nums, target) {
     }
     comp[target - nums[i]] = i
   }
+  return undefined
 }
 
 export default winner
