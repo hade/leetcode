@@ -20,3 +20,8 @@ Using jest for testing. ES6 module export/import does not work out-of-the-box. M
   }
 }
 ```
+
+Running individual test:
+```javascript
+yarn test two-sum.test.js
+```
