@@ -1,4 +1,4 @@
-import solution from './solution'
+import solution from './02-solution'
 
 function ListNode(val, next) {
   this.val = (val === undefined ? 0 : val)
